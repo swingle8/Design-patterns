@@ -46,11 +46,11 @@ final class User {
 	
 	
 	public static class Builder {
-		private final String first_name;
-		private final String last_name;
-		private int age;
-		private String address;
-		private String phone;
+		private final String first_name; //mandatory
+		private final String last_name;  //mandatory
+		private int age;  //optional
+		private String address; //optional
+		private String phone; //optional
 		
 		public Builder (String fname, String lname) {
 			this.first_name = fname;
